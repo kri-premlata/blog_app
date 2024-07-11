@@ -1,0 +1,13 @@
+<%- include("partials/header")%>
+<%- include("partials/nav")%>
+
+<div class="w-[70%] mt-5 p-5 mx-auto">
+    <h1 class="text-5xl font-semibold">Login</h1>
+    <form action="/login" method="">
+        <input class="w-1/2 p-2 mt-5 border-solid border-2 border-indigo-200  rounded " type="text" placeholder="Enter the username" name="username">
+        <input class="w-1/2 p-2 mt-5 border-solid border-2 border-indigo-200  rounded " type="password" placeholder="Enter the new password" name="password">
+        <button class="w-1/2 p-2 mt-5 rounded bg-emerald-600 hover:bg-emerald-700 font-semibold text-2xl text-white">Login</button>
+    </form>
+</div>
+
+<%- include("partials/footer")%>
